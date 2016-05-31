@@ -2,7 +2,7 @@ function [] = Setup()
 
 config = frame_config('','','', 'compile');
 
-cuda_root = ''; 
+cuda_root = '/usr/local/cuda/'; 
 % matconvv can automatically guess cuda dir, if not
 % please specify the cuda directory
 
